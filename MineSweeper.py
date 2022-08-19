@@ -63,7 +63,7 @@ if True:
             if self.IS_FIRST_CLICK:
                 self.insert_mines(clicked_button.number)
                 self.count_mines_in_buttons()
-                self.print_buttons()
+                # self.print_buttons()
                 self.IS_FIRST_CLICK = False
 
             if clicked_button.is_mine:
